@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ROBOT</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="1500" height="700">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <p>&larr;&rarr;: robot Y-Rotation,&uarr;&darr;: Forward/Backward , ws: legLEFT X-rotation, ed: legRIGHT X-rotation
+	</br>
+		T.Y: armRIGHT X-rotation, U.I: armRIGHT Z-rotation,    X.Z: armLEFT X-rotation, C.V: armLEFT Z-rotation ,</br> space : jump,
+		H: Forward translate , N: backward ,</br> B: left direction translate ,M: right direction translate , H: walk forward   , K : run forward
+		O.P : neck rotation , 
+	</p>
+
+    <script src="webgl-utils.js"></script>
+    <script src="webgl-debug.js"></script>
+    <script src="cuon-utils.js"></script>
+    <script src="cuon-matrix.js"></script>
+    <script src="Robo.js"></script>
+  </body>
+</html>
